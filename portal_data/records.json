@@ -1,0 +1,169 @@
+[
+  {
+    "id": "L1",
+    "category": "能力",
+    "title": "甲实验室电压范围",
+    "revision": 1,
+    "fields": {
+      "lab": "甲",
+      "method": "直流电压",
+      "low": 0,
+      "high": 100,
+      "closed": true,
+      "unit": "V",
+      "a_percent": 0.01,
+      "b": 0.002,
+      "k": 2,
+      "cost": 400
+    }
+  },
+  {
+    "id": "L2",
+    "category": "能力",
+    "title": "乙实验室低压范围",
+    "revision": 1,
+    "fields": {
+      "lab": "乙",
+      "method": "直流电压",
+      "low": 0,
+      "high": 10,
+      "closed": false,
+      "unit": "V",
+      "U": 0.004,
+      "k": 2,
+      "cost": 200
+    }
+  },
+  {
+    "id": "L3",
+    "category": "能力",
+    "title": "乙实验室温度范围",
+    "revision": 1,
+    "fields": {
+      "lab": "乙",
+      "method": "温度",
+      "low": -30,
+      "high": 150,
+      "closed": true,
+      "unit": "C",
+      "U": 0.15,
+      "k": 2,
+      "cost": 500
+    }
+  },
+  {
+    "id": "L4",
+    "category": "能力",
+    "title": "丙实验室压力范围",
+    "revision": 1,
+    "fields": {
+      "lab": "丙",
+      "method": "压力",
+      "low": 0,
+      "high": 1000,
+      "closed": true,
+      "unit": "kPa",
+      "U": 2,
+      "k": 2,
+      "cost": 300
+    }
+  },
+  {
+    "id": "L5",
+    "category": "能力",
+    "title": "甲实验室温度范围",
+    "revision": 1,
+    "fields": {
+      "lab": "甲",
+      "method": "温度",
+      "low": 0,
+      "high": 100,
+      "closed": true,
+      "unit": "C",
+      "U": 0.18,
+      "k": 2,
+      "cost": 350
+    }
+  },
+  {
+    "id": "L6",
+    "category": "说明",
+    "title": "丙交流能力宣传",
+    "revision": 1,
+    "fields": {
+      "lab": "丙",
+      "method": "交流电压",
+      "range": "0至100V",
+      "accredited": false,
+      "k": null
+    }
+  },
+  {
+    "id": "S1",
+    "category": "暂停",
+    "title": "乙高温段暂停",
+    "revision": 1,
+    "fields": {
+      "lab": "乙",
+      "method": "温度",
+      "low": 110,
+      "high": 150,
+      "effective": "2026-11-01"
+    }
+  },
+  {
+    "id": "CAP1",
+    "category": "时段",
+    "title": "甲 2026-11-18",
+    "revision": 1,
+    "fields": {
+      "lab": "甲",
+      "date": "2026-11-18",
+      "slots": 1
+    }
+  },
+  {
+    "id": "CAP2",
+    "category": "时段",
+    "title": "甲 2026-11-19",
+    "revision": 1,
+    "fields": {
+      "lab": "甲",
+      "date": "2026-11-19",
+      "slots": 1
+    }
+  },
+  {
+    "id": "CAP3",
+    "category": "时段",
+    "title": "乙 2026-11-19",
+    "revision": 1,
+    "fields": {
+      "lab": "乙",
+      "date": "2026-11-19",
+      "slots": 1
+    }
+  },
+  {
+    "id": "CAP4",
+    "category": "时段",
+    "title": "丙 2026-11-18",
+    "revision": 1,
+    "fields": {
+      "lab": "丙",
+      "date": "2026-11-18",
+      "slots": 1
+    }
+  },
+  {
+    "id": "CAP5",
+    "category": "时段",
+    "title": "乙 2026-11-18",
+    "revision": 1,
+    "fields": {
+      "lab": "乙",
+      "date": "2026-11-18",
+      "slots": 1
+    }
+  }
+]
