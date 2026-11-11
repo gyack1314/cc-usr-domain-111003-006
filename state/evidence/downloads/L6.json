@@ -1,0 +1,13 @@
+{
+  "category": "说明",
+  "fields": {
+    "accredited": false,
+    "k": null,
+    "lab": "丙",
+    "method": "交流电压",
+    "range": "0至100V"
+  },
+  "id": "L6",
+  "revision": 1,
+  "title": "丙交流能力宣传"
+}

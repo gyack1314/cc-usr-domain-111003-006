@@ -1,0 +1,18 @@
+{
+  "category": "能力",
+  "fields": {
+    "a_percent": 0.01,
+    "b": 0.002,
+    "closed": true,
+    "cost": 400,
+    "high": 100,
+    "k": 2,
+    "lab": "甲",
+    "low": 0,
+    "method": "直流电压",
+    "unit": "V"
+  },
+  "id": "L1",
+  "revision": 1,
+  "title": "甲实验室电压范围"
+}

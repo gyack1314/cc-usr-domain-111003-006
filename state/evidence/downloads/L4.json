@@ -1,0 +1,17 @@
+{
+  "category": "能力",
+  "fields": {
+    "U": 2,
+    "closed": true,
+    "cost": 300,
+    "high": 1000,
+    "k": 2,
+    "lab": "丙",
+    "low": 0,
+    "method": "压力",
+    "unit": "kPa"
+  },
+  "id": "L4",
+  "revision": 1,
+  "title": "丙实验室压力范围"
+}

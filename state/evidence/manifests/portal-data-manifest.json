@@ -1,0 +1,72 @@
+[
+  {
+    "path": "config.json",
+    "sha256": "0c64bdf82c12d22fc291b282c36c27a599a1161f4ec246d803a64b805a2da4d2",
+    "size": 140
+  },
+  {
+    "path": "documents/CAP1.txt",
+    "sha256": "83570a7104b21dde9c16ec5a00395da78222a8c6de8b0cc5c05e6dfab76a86bb",
+    "size": 168
+  },
+  {
+    "path": "documents/CAP2.txt",
+    "sha256": "98e42fb44035939b3c2646a19825806a28b80c652ca7d6cc1db8f669f0206ac1",
+    "size": 168
+  },
+  {
+    "path": "documents/CAP3.txt",
+    "sha256": "643d15ccbc4143af6f06b270bf040c3525e2fca8e50d95469f224fadd863b585",
+    "size": 168
+  },
+  {
+    "path": "documents/CAP4.txt",
+    "sha256": "50ddf2a2cd3609231b5f4cc188d9100152224f9d7ecaa131170161437c774dc4",
+    "size": 168
+  },
+  {
+    "path": "documents/CAP5.txt",
+    "sha256": "3e0dc592092e560b30ca24dbeeb350cf3a6e63195e5e38d0b3140670103e7965",
+    "size": 168
+  },
+  {
+    "path": "documents/L1.txt",
+    "sha256": "f8a9add5a8b2d2b18bfbde9bc2bda3fa395da1a9617e285164f78d14ba84c3bc",
+    "size": 258
+  },
+  {
+    "path": "documents/L2.txt",
+    "sha256": "6f3f9e782e3b00ac79a9cc183223ba756965ae901d3b1f60de2bc4001016128d",
+    "size": 241
+  },
+  {
+    "path": "documents/L3.txt",
+    "sha256": "73ecff5e66df8c4ba4a2563d53324fd7ca25aa6a97bd2370489a335cc0b517d9",
+    "size": 236
+  },
+  {
+    "path": "documents/L4.txt",
+    "sha256": "da3b40b85641501c9e1173fd269b284ab41842423ae784d42247c11c1a2b87f4",
+    "size": 234
+  },
+  {
+    "path": "documents/L5.txt",
+    "sha256": "0961ade4d9bac460624a45996eb99b1c4aab2472a940de64f76885df0c3f244c",
+    "size": 234
+  },
+  {
+    "path": "documents/L6.txt",
+    "sha256": "aacc104646dbb519b4e7dcb4584eb00860880930e75b7228f6673442a86cebec",
+    "size": 214
+  },
+  {
+    "path": "documents/S1.txt",
+    "sha256": "181100a672e5f3c0f578a52caac3dc8b3e7c626edc5e68ec5063333d1d8042ee",
+    "size": 204
+  },
+  {
+    "path": "records.json",
+    "sha256": "bb594e6380e9a7163c1459c070be694fda81069b1571b691d1dc6fde8b6fd713",
+    "size": 3008
+  }
+]

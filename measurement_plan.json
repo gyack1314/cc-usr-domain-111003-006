@@ -1,0 +1,1056 @@
+{
+  "plan_name": "六台仪器集中送校建议（待人工审批，未预约）",
+  "generated_business_date_basis": "业务日期依据 materials/policy.md 与 downtime.md；系统当前日期不参与效力判断",
+  "policy_rules": [
+    "测点误差能力以标准不确定度 u 比较；U 与 k 给定时 u=U/k；a%读数+b 按最坏线性和后再除 k",
+    "实验室方法与认可范围须同时匹配；暂停条款优先；闭区间首尾可取，开区间边界不可取",
+    "预约名额按 实验室@日期 共用，一台一次占一个名额，分两家占两次；仅建议不预约",
+    "置信口径缺失、暂停范围不清或测点超能力时测点留作未确认，不默认机构能做"
+  ],
+  "source_references": {
+    "CAP1": "CAP1@31183b1dc9c53cb359c7b2f8fa84a192066288d597277346a3917e270df89aeb",
+    "CAP2": "CAP2@bd490fca67420425259920024686af9924d59db4768d73564ecfbfe87fa027ab",
+    "CAP3": "CAP3@e3ef8aa42f57ec36d1777fe316849033fb0ddf1b9c5d0a8406b989220a4c59f5",
+    "CAP4": "CAP4@fa841642979033bd297e1ee5bbc093a68e0b6dfbf9aa4d84adb5e13a7abb9675",
+    "CAP5": "CAP5@56040317b5bc3e4d81739d28c70d9ca20be22f2b31e6cb5d6abcc5cdc5275e75",
+    "L1": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728",
+    "L2": "L2@2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684",
+    "L3": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c",
+    "L4": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00",
+    "L5": "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e",
+    "L6": "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+    "S1": "S1@27a0ba9010e9b5463fdc02b4957d28e9cd985ce6d924b72c5c22f112ccb70736"
+  },
+  "recommended_plan_A_baseline_no_window_change": {
+    "groups": [
+      {
+        "group": "2026-11-18 甲组（直流电压 I2）",
+        "assignments": [
+          {
+            "serial": "I2",
+            "lab": "甲",
+            "date": "2026-11-18",
+            "capability_record": "L1",
+            "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728",
+            "cost": 400,
+            "occupies_one_shared_slot": "甲@2026-11-18",
+            "points_covered_confirmed": [
+              "10",
+              "100"
+            ],
+            "points_unconfirmed": []
+          }
+        ]
+      },
+      {
+        "group": "2026-11-18 丙组（压力 I5）",
+        "assignments": [
+          {
+            "serial": "I5",
+            "lab": "丙",
+            "date": "2026-11-18",
+            "capability_record": "L4",
+            "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00",
+            "cost": 300,
+            "occupies_one_shared_slot": "丙@2026-11-18",
+            "points_covered_confirmed": [
+              "0.1",
+              "1"
+            ],
+            "points_unconfirmed": []
+          }
+        ]
+      },
+      {
+        "group": "2026-11-19 甲组（直流电压 I1）",
+        "assignments": [
+          {
+            "serial": "I1",
+            "lab": "甲",
+            "date": "2026-11-19",
+            "capability_record": "L1",
+            "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728",
+            "cost": 400,
+            "occupies_one_shared_slot": "甲@2026-11-19",
+            "points_covered_confirmed": [
+              "1",
+              "10"
+            ],
+            "points_unconfirmed": []
+          }
+        ]
+      },
+      {
+        "group": "2026-11-19 乙组（温度 I3）",
+        "assignments": [
+          {
+            "serial": "I3",
+            "lab": "乙",
+            "date": "2026-11-19",
+            "capability_record": "L3",
+            "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c",
+            "cost": 500,
+            "occupies_one_shared_slot": "乙@2026-11-19",
+            "points_covered_confirmed": [
+              "0",
+              "50",
+              "100"
+            ],
+            "points_unconfirmed": []
+          }
+        ]
+      }
+    ],
+    "assignments": [
+      {
+        "serial": "I2",
+        "lab": "甲",
+        "date": "2026-11-18",
+        "capability_record": "L1",
+        "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728",
+        "cost": 400,
+        "occupies_one_shared_slot": "甲@2026-11-18",
+        "points_covered_confirmed": [
+          "10",
+          "100"
+        ],
+        "points_unconfirmed": []
+      },
+      {
+        "serial": "I5",
+        "lab": "丙",
+        "date": "2026-11-18",
+        "capability_record": "L4",
+        "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00",
+        "cost": 300,
+        "occupies_one_shared_slot": "丙@2026-11-18",
+        "points_covered_confirmed": [
+          "0.1",
+          "1"
+        ],
+        "points_unconfirmed": []
+      },
+      {
+        "serial": "I1",
+        "lab": "甲",
+        "date": "2026-11-19",
+        "capability_record": "L1",
+        "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728",
+        "cost": 400,
+        "occupies_one_shared_slot": "甲@2026-11-19",
+        "points_covered_confirmed": [
+          "1",
+          "10"
+        ],
+        "points_unconfirmed": []
+      },
+      {
+        "serial": "I3",
+        "lab": "乙",
+        "date": "2026-11-19",
+        "capability_record": "L3",
+        "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c",
+        "cost": 500,
+        "occupies_one_shared_slot": "乙@2026-11-19",
+        "points_covered_confirmed": [
+          "0",
+          "50",
+          "100"
+        ],
+        "points_unconfirmed": []
+      }
+    ],
+    "capacity_check": {
+      "tool": "workbench.domain.capacity",
+      "over_limit": {},
+      "slot_limits": {
+        "甲@2026-11-18": 1,
+        "甲@2026-11-19": 1,
+        "乙@2026-11-19": 1,
+        "丙@2026-11-18": 1,
+        "乙@2026-11-18": 1
+      },
+      "idle_slots": [
+        "乙@2026-11-18"
+      ]
+    },
+    "total_estimated_cost": 1600,
+    "instruments_not_arranged": [
+      {
+        "serial": "I4",
+        "reason": "19 日乙唯一名额给 I3；-20 测点虽可由乙 L3 确认但无名额，120 测点无认可路径"
+      },
+      {
+        "serial": "I6",
+        "reason": "交流电压仅有丙 L6 非认可宣传(accredited=false, k=null)，10V 测点未确认"
+      }
+    ]
+  },
+  "alternative_plan_B_requires_owner_approval": {
+    "assignments": [
+      {
+        "serial": "I2",
+        "lab": "甲",
+        "date": "2026-11-18",
+        "capability_record": "L1",
+        "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728",
+        "cost": 400
+      },
+      {
+        "serial": "I5",
+        "lab": "丙",
+        "date": "2026-11-18",
+        "capability_record": "L4",
+        "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00",
+        "cost": 300
+      },
+      {
+        "serial": "I1",
+        "lab": "甲",
+        "date": "2026-11-19",
+        "capability_record": "L1",
+        "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728",
+        "cost": 400
+      },
+      {
+        "serial": "I3",
+        "lab": "乙",
+        "date": "2026-11-19",
+        "capability_record": "L3",
+        "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c",
+        "cost": 500
+      },
+      {
+        "serial": "I4",
+        "lab": "乙",
+        "date": "2026-11-18",
+        "capability_record": "L3",
+        "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c",
+        "cost": 500,
+        "approval_needed": "设备负责人批准 I4 停用窗口由 19 日扩至 18 日（仅 -20 测点可校，120 仍未确认）"
+      }
+    ],
+    "capacity_over_limit": {},
+    "total_estimated_cost": 2100,
+    "approval_requests": [
+      "请求设备负责人批准 I4 增加 2026-11-18 停用，使用乙18 闲置名额（CAP5）完成 -20 测点（方案B）",
+      "或批准 I3 增加 2026-11-18 停用改走乙18，乙19 留给 I4 的 -20 测点（同属一次扩窗请求，成本相同）",
+      "I4 的 120C 测点与 I6 的 10V 交流测点本轮无法确认，须另行寻找具备认可资质的实验室，不在本次名额内占位"
+    ]
+  },
+  "tradeoff_studies": {
+    "split_attempt_C": {
+      "assignments": [
+        {
+          "serial": "I2",
+          "lab": "甲",
+          "date": "2026-11-18"
+        },
+        {
+          "serial": "I1",
+          "lab": "甲",
+          "date": "2026-11-18"
+        }
+      ],
+      "capacity_over": {
+        "甲@2026-11-18": 2
+      },
+      "conclusion": "甲18 名额被 I2 独占，I1 拆入必然超额，拆分不可行"
+    },
+    "cheap_quote_D_rejected": {
+      "claim": "乙 L2 报价 200 元低于甲 L1 的 400 元，且宣传覆盖低压",
+      "reject_reasons": [
+        "L2 closed=false，量程为开区间 (0,10)V，I1 的 10V 与 I2 的 10V 边界测点按规程不可取",
+        "I2 的 100V 超出 L2 上限，乙对 I2 无任何认可测点",
+        "即使 I1 的 1V 测点乙可做(u=0.002V)，单台拆两家将占两个名额且 10V 仍须甲，不构成可接受方案"
+      ]
+    },
+    "I3_lab_choice": {
+      "options": [
+        {
+          "lab": "乙",
+          "record": "L3",
+          "standard_u_C": "0.075",
+          "cost": 500,
+          "slot": "乙@2026-11-19"
+        },
+        {
+          "lab": "甲",
+          "record": "L5",
+          "standard_u_C": "0.09",
+          "cost": 350,
+          "slot": "甲@2026-11-19"
+        }
+      ],
+      "decision": "选乙：甲19 名额必须留给唯一认可实验室为甲的 I1；乙 u 更小且费用差异不改变覆盖结论"
+    }
+  },
+  "minimal_conflict_set": {
+    "contention": "乙@2026-11-19 唯一名额（CAP3, slots=1）",
+    "minimal_conflict_set": [
+      "I3",
+      "I4"
+    ],
+    "why": "I3、I4 均只能 19 日停用；19 日乙仅 1 名额。甲19 名额被 I1 占用（I2 锁死甲18，I1 无其他认可实验室）。I4 在乙仅 -20 测点可确认，120 测点因 S1 暂停且甲 L5 仅到 100C 而无认可路径。",
+    "resolution_requests": [
+      "请求设备负责人批准 I4 增加 2026-11-18 停用，使用乙18 闲置名额（CAP5）完成 -20 测点（方案B）",
+      "或批准 I3 增加 2026-11-18 停用改走乙18，乙19 留给 I4 的 -20 测点（同属一次扩窗请求，成本相同）",
+      "I4 的 120C 测点与 I6 的 10V 交流测点本轮无法确认，须另行寻找具备认可资质的实验室，不在本次名额内占位"
+    ]
+  },
+  "unconfirmed_points_kept_open": [
+    {
+      "serial": "I4",
+      "point": "120",
+      "unit": "C",
+      "reason": "乙 L3 的 120C 落在 S1 暂停[110,150]（2026-11-01 生效）；甲 L5 量程仅 [0,100]C；无其他认可记录",
+      "evidence_refs": [
+        "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c",
+        "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e",
+        "S1@27a0ba9010e9b5463fdc02b4957d28e9cd985ce6d924b72c5c22f112ccb70736"
+      ]
+    },
+    {
+      "serial": "I6",
+      "point": "10",
+      "unit": "V",
+      "reason": "门户无交流电压认可能力记录；丙 L6 accredited=false 且 k=null，置信口径缺失，不能用于客户验收",
+      "evidence_refs": [
+        "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746"
+      ]
+    }
+  ],
+  "per_point_evidence": {
+    "I1": [
+      {
+        "point": "1",
+        "unit": "V",
+        "max_allowed_standard_u": "0.003",
+        "confirmed": true,
+        "chosen_record": "L1",
+        "chosen_lab": "甲",
+        "formula": "u=(|1|*0.01%+0.002)/2",
+        "expanded_U": "0.0021",
+        "k": 2,
+        "standard_u_cap_unit": "0.00105",
+        "standard_u_instrument_unit": "0.00105",
+        "recomputed_by_independent_decimal": true,
+        "unconfirmed_reason": null,
+        "all_candidates": [
+          {
+            "record": "L1",
+            "lab": "甲",
+            "status": "feasible",
+            "reason": "方法/单位/量程/暂停/不确定度全部满足",
+            "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+          },
+          {
+            "record": "L2",
+            "lab": "乙",
+            "status": "feasible",
+            "reason": "方法/单位/量程/暂停/不确定度全部满足",
+            "reference": "L2@2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+          },
+          {
+            "record": "L3",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+          },
+          {
+            "record": "L4",
+            "lab": "丙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+          },
+          {
+            "record": "L5",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+          },
+          {
+            "record": "L6",
+            "lab": "丙",
+            "status": "unconfirmed",
+            "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收",
+            "reference": "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746"
+          }
+        ]
+      },
+      {
+        "point": "10",
+        "unit": "V",
+        "max_allowed_standard_u": "0.003",
+        "confirmed": true,
+        "chosen_record": "L1",
+        "chosen_lab": "甲",
+        "formula": "u=(|10|*0.01%+0.002)/2",
+        "expanded_U": "0.003",
+        "k": 2,
+        "standard_u_cap_unit": "0.0015",
+        "standard_u_instrument_unit": "0.0015",
+        "recomputed_by_independent_decimal": true,
+        "unconfirmed_reason": null,
+        "all_candidates": [
+          {
+            "record": "L1",
+            "lab": "甲",
+            "status": "feasible",
+            "reason": "方法/单位/量程/暂停/不确定度全部满足",
+            "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+          },
+          {
+            "record": "L2",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "测点不在认可量程内（开区间边界不可取）",
+            "reference": "L2@2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+          },
+          {
+            "record": "L3",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+          },
+          {
+            "record": "L4",
+            "lab": "丙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+          },
+          {
+            "record": "L5",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+          },
+          {
+            "record": "L6",
+            "lab": "丙",
+            "status": "unconfirmed",
+            "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收",
+            "reference": "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746"
+          }
+        ]
+      }
+    ],
+    "I2": [
+      {
+        "point": "10",
+        "unit": "V",
+        "max_allowed_standard_u": "0.01",
+        "confirmed": true,
+        "chosen_record": "L1",
+        "chosen_lab": "甲",
+        "formula": "u=(|10|*0.01%+0.002)/2",
+        "expanded_U": "0.003",
+        "k": 2,
+        "standard_u_cap_unit": "0.0015",
+        "standard_u_instrument_unit": "0.0015",
+        "recomputed_by_independent_decimal": true,
+        "unconfirmed_reason": null,
+        "all_candidates": [
+          {
+            "record": "L1",
+            "lab": "甲",
+            "status": "feasible",
+            "reason": "方法/单位/量程/暂停/不确定度全部满足",
+            "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+          },
+          {
+            "record": "L2",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "测点不在认可量程内（开区间边界不可取）",
+            "reference": "L2@2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+          },
+          {
+            "record": "L3",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+          },
+          {
+            "record": "L4",
+            "lab": "丙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+          },
+          {
+            "record": "L5",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+          },
+          {
+            "record": "L6",
+            "lab": "丙",
+            "status": "unconfirmed",
+            "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收",
+            "reference": "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746"
+          }
+        ]
+      },
+      {
+        "point": "100",
+        "unit": "V",
+        "max_allowed_standard_u": "0.01",
+        "confirmed": true,
+        "chosen_record": "L1",
+        "chosen_lab": "甲",
+        "formula": "u=(|100|*0.01%+0.002)/2",
+        "expanded_U": "0.012",
+        "k": 2,
+        "standard_u_cap_unit": "0.006",
+        "standard_u_instrument_unit": "0.006",
+        "recomputed_by_independent_decimal": true,
+        "unconfirmed_reason": null,
+        "all_candidates": [
+          {
+            "record": "L1",
+            "lab": "甲",
+            "status": "feasible",
+            "reason": "方法/单位/量程/暂停/不确定度全部满足",
+            "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+          },
+          {
+            "record": "L2",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "测点不在认可量程内（开区间边界不可取）",
+            "reference": "L2@2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+          },
+          {
+            "record": "L3",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+          },
+          {
+            "record": "L4",
+            "lab": "丙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+          },
+          {
+            "record": "L5",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+          },
+          {
+            "record": "L6",
+            "lab": "丙",
+            "status": "unconfirmed",
+            "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收",
+            "reference": "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746"
+          }
+        ]
+      }
+    ],
+    "I3": [
+      {
+        "point": "0",
+        "unit": "C",
+        "max_allowed_standard_u": "0.1",
+        "confirmed": true,
+        "chosen_record": "L3",
+        "chosen_lab": "乙",
+        "formula": "u=0.15/2",
+        "expanded_U": "0.15",
+        "k": 2,
+        "standard_u_cap_unit": "0.075",
+        "standard_u_instrument_unit": "0.075",
+        "recomputed_by_independent_decimal": true,
+        "unconfirmed_reason": null,
+        "all_candidates": [
+          {
+            "record": "L1",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+          },
+          {
+            "record": "L2",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L2@2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+          },
+          {
+            "record": "L3",
+            "lab": "乙",
+            "status": "feasible",
+            "reason": "方法/单位/量程/暂停/不确定度全部满足",
+            "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+          },
+          {
+            "record": "L4",
+            "lab": "丙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+          },
+          {
+            "record": "L5",
+            "lab": "甲",
+            "status": "feasible",
+            "reason": "方法/单位/量程/暂停/不确定度全部满足",
+            "reference": "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+          },
+          {
+            "record": "L6",
+            "lab": "丙",
+            "status": "unconfirmed",
+            "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收",
+            "reference": "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746"
+          }
+        ]
+      },
+      {
+        "point": "50",
+        "unit": "C",
+        "max_allowed_standard_u": "0.1",
+        "confirmed": true,
+        "chosen_record": "L3",
+        "chosen_lab": "乙",
+        "formula": "u=0.15/2",
+        "expanded_U": "0.15",
+        "k": 2,
+        "standard_u_cap_unit": "0.075",
+        "standard_u_instrument_unit": "0.075",
+        "recomputed_by_independent_decimal": true,
+        "unconfirmed_reason": null,
+        "all_candidates": [
+          {
+            "record": "L1",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+          },
+          {
+            "record": "L2",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L2@2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+          },
+          {
+            "record": "L3",
+            "lab": "乙",
+            "status": "feasible",
+            "reason": "方法/单位/量程/暂停/不确定度全部满足",
+            "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+          },
+          {
+            "record": "L4",
+            "lab": "丙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+          },
+          {
+            "record": "L5",
+            "lab": "甲",
+            "status": "feasible",
+            "reason": "方法/单位/量程/暂停/不确定度全部满足",
+            "reference": "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+          },
+          {
+            "record": "L6",
+            "lab": "丙",
+            "status": "unconfirmed",
+            "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收",
+            "reference": "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746"
+          }
+        ]
+      },
+      {
+        "point": "100",
+        "unit": "C",
+        "max_allowed_standard_u": "0.1",
+        "confirmed": true,
+        "chosen_record": "L3",
+        "chosen_lab": "乙",
+        "formula": "u=0.15/2",
+        "expanded_U": "0.15",
+        "k": 2,
+        "standard_u_cap_unit": "0.075",
+        "standard_u_instrument_unit": "0.075",
+        "recomputed_by_independent_decimal": true,
+        "unconfirmed_reason": null,
+        "all_candidates": [
+          {
+            "record": "L1",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+          },
+          {
+            "record": "L2",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L2@2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+          },
+          {
+            "record": "L3",
+            "lab": "乙",
+            "status": "feasible",
+            "reason": "方法/单位/量程/暂停/不确定度全部满足",
+            "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+          },
+          {
+            "record": "L4",
+            "lab": "丙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+          },
+          {
+            "record": "L5",
+            "lab": "甲",
+            "status": "feasible",
+            "reason": "方法/单位/量程/暂停/不确定度全部满足",
+            "reference": "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+          },
+          {
+            "record": "L6",
+            "lab": "丙",
+            "status": "unconfirmed",
+            "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收",
+            "reference": "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746"
+          }
+        ]
+      }
+    ],
+    "I4": [
+      {
+        "point": "-20",
+        "unit": "C",
+        "max_allowed_standard_u": "0.2",
+        "confirmed": true,
+        "chosen_record": "L3",
+        "chosen_lab": "乙",
+        "formula": "u=0.15/2",
+        "expanded_U": "0.15",
+        "k": 2,
+        "standard_u_cap_unit": "0.075",
+        "standard_u_instrument_unit": "0.075",
+        "recomputed_by_independent_decimal": true,
+        "unconfirmed_reason": null,
+        "all_candidates": [
+          {
+            "record": "L1",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+          },
+          {
+            "record": "L2",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L2@2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+          },
+          {
+            "record": "L3",
+            "lab": "乙",
+            "status": "feasible",
+            "reason": "方法/单位/量程/暂停/不确定度全部满足",
+            "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+          },
+          {
+            "record": "L4",
+            "lab": "丙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+          },
+          {
+            "record": "L5",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "测点超量程",
+            "reference": "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+          },
+          {
+            "record": "L6",
+            "lab": "丙",
+            "status": "unconfirmed",
+            "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收",
+            "reference": "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746"
+          }
+        ]
+      },
+      {
+        "point": "120",
+        "unit": "C",
+        "max_allowed_standard_u": "0.2",
+        "confirmed": false,
+        "chosen_record": null,
+        "chosen_lab": null,
+        "formula": null,
+        "expanded_U": null,
+        "k": null,
+        "standard_u_cap_unit": null,
+        "standard_u_instrument_unit": null,
+        "recomputed_by_independent_decimal": null,
+        "unconfirmed_reason": "落在暂停范围 S1 [110,150]（生效 2026-11-01）",
+        "all_candidates": [
+          {
+            "record": "L1",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+          },
+          {
+            "record": "L2",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L2@2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+          },
+          {
+            "record": "L3",
+            "lab": "乙",
+            "status": "unconfirmed",
+            "reason": "落在暂停范围 S1 [110,150]（生效 2026-11-01）",
+            "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+          },
+          {
+            "record": "L4",
+            "lab": "丙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+          },
+          {
+            "record": "L5",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "测点超量程",
+            "reference": "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+          },
+          {
+            "record": "L6",
+            "lab": "丙",
+            "status": "unconfirmed",
+            "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收",
+            "reference": "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746"
+          }
+        ]
+      }
+    ],
+    "I5": [
+      {
+        "point": "0.1",
+        "unit": "MPa",
+        "max_allowed_standard_u": "0.002",
+        "confirmed": true,
+        "chosen_record": "L4",
+        "chosen_lab": "丙",
+        "formula": "u=2/2",
+        "expanded_U": "2",
+        "k": 2,
+        "standard_u_cap_unit": "1",
+        "standard_u_instrument_unit": "0.001",
+        "recomputed_by_independent_decimal": true,
+        "unconfirmed_reason": null,
+        "all_candidates": [
+          {
+            "record": "L1",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+          },
+          {
+            "record": "L2",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L2@2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+          },
+          {
+            "record": "L3",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+          },
+          {
+            "record": "L4",
+            "lab": "丙",
+            "status": "feasible",
+            "reason": "方法/单位/量程/暂停/不确定度全部满足",
+            "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+          },
+          {
+            "record": "L5",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+          },
+          {
+            "record": "L6",
+            "lab": "丙",
+            "status": "unconfirmed",
+            "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收",
+            "reference": "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746"
+          }
+        ]
+      },
+      {
+        "point": "1",
+        "unit": "MPa",
+        "max_allowed_standard_u": "0.002",
+        "confirmed": true,
+        "chosen_record": "L4",
+        "chosen_lab": "丙",
+        "formula": "u=2/2",
+        "expanded_U": "2",
+        "k": 2,
+        "standard_u_cap_unit": "1",
+        "standard_u_instrument_unit": "0.001",
+        "recomputed_by_independent_decimal": true,
+        "unconfirmed_reason": null,
+        "all_candidates": [
+          {
+            "record": "L1",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+          },
+          {
+            "record": "L2",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L2@2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+          },
+          {
+            "record": "L3",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+          },
+          {
+            "record": "L4",
+            "lab": "丙",
+            "status": "feasible",
+            "reason": "方法/单位/量程/暂停/不确定度全部满足",
+            "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+          },
+          {
+            "record": "L5",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+          },
+          {
+            "record": "L6",
+            "lab": "丙",
+            "status": "unconfirmed",
+            "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收",
+            "reference": "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746"
+          }
+        ]
+      }
+    ],
+    "I6": [
+      {
+        "point": "10",
+        "unit": "V",
+        "max_allowed_standard_u": "0.01",
+        "confirmed": false,
+        "chosen_record": null,
+        "chosen_lab": null,
+        "formula": null,
+        "expanded_U": null,
+        "k": null,
+        "standard_u_cap_unit": null,
+        "standard_u_instrument_unit": null,
+        "recomputed_by_independent_decimal": null,
+        "unconfirmed_reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收",
+        "all_candidates": [
+          {
+            "record": "L1",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+          },
+          {
+            "record": "L2",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L2@2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+          },
+          {
+            "record": "L3",
+            "lab": "乙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+          },
+          {
+            "record": "L4",
+            "lab": "丙",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+          },
+          {
+            "record": "L5",
+            "lab": "甲",
+            "status": "ineligible",
+            "reason": "方法不匹配",
+            "reference": "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+          },
+          {
+            "record": "L6",
+            "lab": "丙",
+            "status": "unconfirmed",
+            "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收",
+            "reference": "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746"
+          }
+        ]
+      }
+    ]
+  },
+  "booking_status": "draft_only_no_booking",
+  "evidence_artifacts": {
+    "collection": "state/evidence/collection.json",
+    "point_evaluation": "state/evidence/point_evaluation.json",
+    "scheduling": "state/evidence/scheduling.json",
+    "journal": "state/evidence/journal.sqlite3",
+    "screenshots": "state/evidence/screenshots/",
+    "downloads": "state/evidence/downloads/",
+    "documents": "state/evidence/archive/",
+    "manifests": "state/evidence/manifests/"
+  }
+}

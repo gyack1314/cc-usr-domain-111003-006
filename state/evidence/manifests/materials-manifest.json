@@ -1,0 +1,17 @@
+[
+  {
+    "path": "downtime.md",
+    "sha256": "2e8653fcf0aae013cf97d83e35d4badc445dea10ca46351a6d9d43718af77233",
+    "size": 137
+  },
+  {
+    "path": "instruments.csv",
+    "sha256": "e68c8b1074a68e6318ab95f216b4705de28a41a48d6d0509b8aef56c23deb8d3",
+    "size": 279
+  },
+  {
+    "path": "policy.md",
+    "sha256": "22444963170a2f5f9bd8512cef8d012b74bca945be362b6d9189f75a51cf750b",
+    "size": 455
+  }
+]

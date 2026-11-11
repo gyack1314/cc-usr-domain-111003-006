@@ -1,0 +1,1255 @@
+{
+  "instruments": [
+    {
+      "serial": "I1",
+      "method": "直流电压",
+      "unit": "V",
+      "points": [
+        "1",
+        "10"
+      ],
+      "max_u": "0.003",
+      "available_dates": [
+        "2026-11-18",
+        "2026-11-19"
+      ],
+      "point_evaluation": [
+        {
+          "point": "1",
+          "candidates": [
+            {
+              "status": "feasible",
+              "record_id": "L1",
+              "lab": "甲",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "1",
+              "reading_in_cap_unit": "1",
+              "interval": "closed",
+              "formula": "u=(|1|*0.01%+0.002)/2",
+              "expanded_U_at_point": "0.0021",
+              "standard_u": "0.00105",
+              "standard_u_instrument_unit": "0.00105",
+              "max_allowed_u": "0.003",
+              "recompute_match": true,
+              "reason": "方法/单位/量程/暂停/不确定度全部满足",
+              "sha256_ref": "0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+            },
+            {
+              "status": "feasible",
+              "record_id": "L2",
+              "lab": "乙",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "1",
+              "reading_in_cap_unit": "1",
+              "interval": "open",
+              "formula": "u=0.004/2",
+              "expanded_U_at_point": "0.004",
+              "standard_u": "0.002",
+              "standard_u_instrument_unit": "0.002",
+              "max_allowed_u": "0.003",
+              "recompute_match": true,
+              "reason": "方法/单位/量程/暂停/不确定度全部满足",
+              "sha256_ref": "2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L3",
+              "lab": "乙",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "1",
+              "reason": "方法不匹配",
+              "sha256_ref": "7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L4",
+              "lab": "丙",
+              "method": "压力",
+              "cap_unit": "kPa",
+              "k": 2,
+              "reading_instrument_unit": "1",
+              "reason": "方法不匹配",
+              "sha256_ref": "94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L5",
+              "lab": "甲",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "1",
+              "reason": "方法不匹配",
+              "sha256_ref": "ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+            },
+            {
+              "status": "unconfirmed",
+              "record_id": "L6",
+              "lab": "丙",
+              "method": "交流电压",
+              "cap_unit": null,
+              "k": null,
+              "reading_instrument_unit": "1",
+              "reading_in_cap_unit": null,
+              "interval": null,
+              "formula": null,
+              "expanded_U_at_point": null,
+              "standard_u": null,
+              "max_allowed_u": "0.003",
+              "recompute_match": null,
+              "sha256_ref": "7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+              "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收"
+            }
+          ],
+          "feasible_labs": [
+            "乙",
+            "甲"
+          ],
+          "point_confirmed": true
+        },
+        {
+          "point": "10",
+          "candidates": [
+            {
+              "status": "feasible",
+              "record_id": "L1",
+              "lab": "甲",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reading_in_cap_unit": "10",
+              "interval": "closed",
+              "formula": "u=(|10|*0.01%+0.002)/2",
+              "expanded_U_at_point": "0.003",
+              "standard_u": "0.0015",
+              "standard_u_instrument_unit": "0.0015",
+              "max_allowed_u": "0.003",
+              "recompute_match": true,
+              "reason": "方法/单位/量程/暂停/不确定度全部满足",
+              "sha256_ref": "0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L2",
+              "lab": "乙",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reading_in_cap_unit": "10",
+              "interval": "open",
+              "reason": "测点不在认可量程内（开区间边界不可取）",
+              "sha256_ref": "2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L3",
+              "lab": "乙",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reason": "方法不匹配",
+              "sha256_ref": "7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L4",
+              "lab": "丙",
+              "method": "压力",
+              "cap_unit": "kPa",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reason": "方法不匹配",
+              "sha256_ref": "94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L5",
+              "lab": "甲",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reason": "方法不匹配",
+              "sha256_ref": "ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+            },
+            {
+              "status": "unconfirmed",
+              "record_id": "L6",
+              "lab": "丙",
+              "method": "交流电压",
+              "cap_unit": null,
+              "k": null,
+              "reading_instrument_unit": "10",
+              "reading_in_cap_unit": null,
+              "interval": null,
+              "formula": null,
+              "expanded_U_at_point": null,
+              "standard_u": null,
+              "max_allowed_u": "0.003",
+              "recompute_match": null,
+              "sha256_ref": "7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+              "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收"
+            }
+          ],
+          "feasible_labs": [
+            "甲"
+          ],
+          "point_confirmed": true
+        }
+      ],
+      "feasible_labs_for_all_points": [
+        "甲"
+      ]
+    },
+    {
+      "serial": "I2",
+      "method": "直流电压",
+      "unit": "V",
+      "points": [
+        "10",
+        "100"
+      ],
+      "max_u": "0.01",
+      "available_dates": [
+        "2026-11-18"
+      ],
+      "point_evaluation": [
+        {
+          "point": "10",
+          "candidates": [
+            {
+              "status": "feasible",
+              "record_id": "L1",
+              "lab": "甲",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reading_in_cap_unit": "10",
+              "interval": "closed",
+              "formula": "u=(|10|*0.01%+0.002)/2",
+              "expanded_U_at_point": "0.003",
+              "standard_u": "0.0015",
+              "standard_u_instrument_unit": "0.0015",
+              "max_allowed_u": "0.01",
+              "recompute_match": true,
+              "reason": "方法/单位/量程/暂停/不确定度全部满足",
+              "sha256_ref": "0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L2",
+              "lab": "乙",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reading_in_cap_unit": "10",
+              "interval": "open",
+              "reason": "测点不在认可量程内（开区间边界不可取）",
+              "sha256_ref": "2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L3",
+              "lab": "乙",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reason": "方法不匹配",
+              "sha256_ref": "7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L4",
+              "lab": "丙",
+              "method": "压力",
+              "cap_unit": "kPa",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reason": "方法不匹配",
+              "sha256_ref": "94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L5",
+              "lab": "甲",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reason": "方法不匹配",
+              "sha256_ref": "ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+            },
+            {
+              "status": "unconfirmed",
+              "record_id": "L6",
+              "lab": "丙",
+              "method": "交流电压",
+              "cap_unit": null,
+              "k": null,
+              "reading_instrument_unit": "10",
+              "reading_in_cap_unit": null,
+              "interval": null,
+              "formula": null,
+              "expanded_U_at_point": null,
+              "standard_u": null,
+              "max_allowed_u": "0.01",
+              "recompute_match": null,
+              "sha256_ref": "7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+              "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收"
+            }
+          ],
+          "feasible_labs": [
+            "甲"
+          ],
+          "point_confirmed": true
+        },
+        {
+          "point": "100",
+          "candidates": [
+            {
+              "status": "feasible",
+              "record_id": "L1",
+              "lab": "甲",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "100",
+              "reading_in_cap_unit": "100",
+              "interval": "closed",
+              "formula": "u=(|100|*0.01%+0.002)/2",
+              "expanded_U_at_point": "0.012",
+              "standard_u": "0.006",
+              "standard_u_instrument_unit": "0.006",
+              "max_allowed_u": "0.01",
+              "recompute_match": true,
+              "reason": "方法/单位/量程/暂停/不确定度全部满足",
+              "sha256_ref": "0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L2",
+              "lab": "乙",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "100",
+              "reading_in_cap_unit": "100",
+              "interval": "open",
+              "reason": "测点不在认可量程内（开区间边界不可取）",
+              "sha256_ref": "2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L3",
+              "lab": "乙",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "100",
+              "reason": "方法不匹配",
+              "sha256_ref": "7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L4",
+              "lab": "丙",
+              "method": "压力",
+              "cap_unit": "kPa",
+              "k": 2,
+              "reading_instrument_unit": "100",
+              "reason": "方法不匹配",
+              "sha256_ref": "94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L5",
+              "lab": "甲",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "100",
+              "reason": "方法不匹配",
+              "sha256_ref": "ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+            },
+            {
+              "status": "unconfirmed",
+              "record_id": "L6",
+              "lab": "丙",
+              "method": "交流电压",
+              "cap_unit": null,
+              "k": null,
+              "reading_instrument_unit": "100",
+              "reading_in_cap_unit": null,
+              "interval": null,
+              "formula": null,
+              "expanded_U_at_point": null,
+              "standard_u": null,
+              "max_allowed_u": "0.01",
+              "recompute_match": null,
+              "sha256_ref": "7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+              "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收"
+            }
+          ],
+          "feasible_labs": [
+            "甲"
+          ],
+          "point_confirmed": true
+        }
+      ],
+      "feasible_labs_for_all_points": [
+        "甲"
+      ]
+    },
+    {
+      "serial": "I3",
+      "method": "温度",
+      "unit": "C",
+      "points": [
+        "0",
+        "50",
+        "100"
+      ],
+      "max_u": "0.1",
+      "available_dates": [
+        "2026-11-19"
+      ],
+      "point_evaluation": [
+        {
+          "point": "0",
+          "candidates": [
+            {
+              "status": "ineligible",
+              "record_id": "L1",
+              "lab": "甲",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "0",
+              "reason": "方法不匹配",
+              "sha256_ref": "0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L2",
+              "lab": "乙",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "0",
+              "reason": "方法不匹配",
+              "sha256_ref": "2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+            },
+            {
+              "status": "feasible",
+              "record_id": "L3",
+              "lab": "乙",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "0",
+              "reading_in_cap_unit": "0",
+              "interval": "closed",
+              "formula": "u=0.15/2",
+              "expanded_U_at_point": "0.15",
+              "standard_u": "0.075",
+              "standard_u_instrument_unit": "0.075",
+              "max_allowed_u": "0.1",
+              "recompute_match": true,
+              "reason": "方法/单位/量程/暂停/不确定度全部满足",
+              "sha256_ref": "7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L4",
+              "lab": "丙",
+              "method": "压力",
+              "cap_unit": "kPa",
+              "k": 2,
+              "reading_instrument_unit": "0",
+              "reason": "方法不匹配",
+              "sha256_ref": "94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+            },
+            {
+              "status": "feasible",
+              "record_id": "L5",
+              "lab": "甲",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "0",
+              "reading_in_cap_unit": "0",
+              "interval": "closed",
+              "formula": "u=0.18/2",
+              "expanded_U_at_point": "0.18",
+              "standard_u": "0.09",
+              "standard_u_instrument_unit": "0.09",
+              "max_allowed_u": "0.1",
+              "recompute_match": true,
+              "reason": "方法/单位/量程/暂停/不确定度全部满足",
+              "sha256_ref": "ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+            },
+            {
+              "status": "unconfirmed",
+              "record_id": "L6",
+              "lab": "丙",
+              "method": "交流电压",
+              "cap_unit": null,
+              "k": null,
+              "reading_instrument_unit": "0",
+              "reading_in_cap_unit": null,
+              "interval": null,
+              "formula": null,
+              "expanded_U_at_point": null,
+              "standard_u": null,
+              "max_allowed_u": "0.1",
+              "recompute_match": null,
+              "sha256_ref": "7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+              "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收"
+            }
+          ],
+          "feasible_labs": [
+            "乙",
+            "甲"
+          ],
+          "point_confirmed": true
+        },
+        {
+          "point": "50",
+          "candidates": [
+            {
+              "status": "ineligible",
+              "record_id": "L1",
+              "lab": "甲",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "50",
+              "reason": "方法不匹配",
+              "sha256_ref": "0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L2",
+              "lab": "乙",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "50",
+              "reason": "方法不匹配",
+              "sha256_ref": "2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+            },
+            {
+              "status": "feasible",
+              "record_id": "L3",
+              "lab": "乙",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "50",
+              "reading_in_cap_unit": "50",
+              "interval": "closed",
+              "formula": "u=0.15/2",
+              "expanded_U_at_point": "0.15",
+              "standard_u": "0.075",
+              "standard_u_instrument_unit": "0.075",
+              "max_allowed_u": "0.1",
+              "recompute_match": true,
+              "reason": "方法/单位/量程/暂停/不确定度全部满足",
+              "sha256_ref": "7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L4",
+              "lab": "丙",
+              "method": "压力",
+              "cap_unit": "kPa",
+              "k": 2,
+              "reading_instrument_unit": "50",
+              "reason": "方法不匹配",
+              "sha256_ref": "94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+            },
+            {
+              "status": "feasible",
+              "record_id": "L5",
+              "lab": "甲",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "50",
+              "reading_in_cap_unit": "50",
+              "interval": "closed",
+              "formula": "u=0.18/2",
+              "expanded_U_at_point": "0.18",
+              "standard_u": "0.09",
+              "standard_u_instrument_unit": "0.09",
+              "max_allowed_u": "0.1",
+              "recompute_match": true,
+              "reason": "方法/单位/量程/暂停/不确定度全部满足",
+              "sha256_ref": "ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+            },
+            {
+              "status": "unconfirmed",
+              "record_id": "L6",
+              "lab": "丙",
+              "method": "交流电压",
+              "cap_unit": null,
+              "k": null,
+              "reading_instrument_unit": "50",
+              "reading_in_cap_unit": null,
+              "interval": null,
+              "formula": null,
+              "expanded_U_at_point": null,
+              "standard_u": null,
+              "max_allowed_u": "0.1",
+              "recompute_match": null,
+              "sha256_ref": "7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+              "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收"
+            }
+          ],
+          "feasible_labs": [
+            "乙",
+            "甲"
+          ],
+          "point_confirmed": true
+        },
+        {
+          "point": "100",
+          "candidates": [
+            {
+              "status": "ineligible",
+              "record_id": "L1",
+              "lab": "甲",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "100",
+              "reason": "方法不匹配",
+              "sha256_ref": "0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L2",
+              "lab": "乙",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "100",
+              "reason": "方法不匹配",
+              "sha256_ref": "2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+            },
+            {
+              "status": "feasible",
+              "record_id": "L3",
+              "lab": "乙",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "100",
+              "reading_in_cap_unit": "100",
+              "interval": "closed",
+              "formula": "u=0.15/2",
+              "expanded_U_at_point": "0.15",
+              "standard_u": "0.075",
+              "standard_u_instrument_unit": "0.075",
+              "max_allowed_u": "0.1",
+              "recompute_match": true,
+              "reason": "方法/单位/量程/暂停/不确定度全部满足",
+              "sha256_ref": "7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L4",
+              "lab": "丙",
+              "method": "压力",
+              "cap_unit": "kPa",
+              "k": 2,
+              "reading_instrument_unit": "100",
+              "reason": "方法不匹配",
+              "sha256_ref": "94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+            },
+            {
+              "status": "feasible",
+              "record_id": "L5",
+              "lab": "甲",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "100",
+              "reading_in_cap_unit": "100",
+              "interval": "closed",
+              "formula": "u=0.18/2",
+              "expanded_U_at_point": "0.18",
+              "standard_u": "0.09",
+              "standard_u_instrument_unit": "0.09",
+              "max_allowed_u": "0.1",
+              "recompute_match": true,
+              "reason": "方法/单位/量程/暂停/不确定度全部满足",
+              "sha256_ref": "ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+            },
+            {
+              "status": "unconfirmed",
+              "record_id": "L6",
+              "lab": "丙",
+              "method": "交流电压",
+              "cap_unit": null,
+              "k": null,
+              "reading_instrument_unit": "100",
+              "reading_in_cap_unit": null,
+              "interval": null,
+              "formula": null,
+              "expanded_U_at_point": null,
+              "standard_u": null,
+              "max_allowed_u": "0.1",
+              "recompute_match": null,
+              "sha256_ref": "7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+              "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收"
+            }
+          ],
+          "feasible_labs": [
+            "乙",
+            "甲"
+          ],
+          "point_confirmed": true
+        }
+      ],
+      "feasible_labs_for_all_points": [
+        "乙",
+        "甲"
+      ]
+    },
+    {
+      "serial": "I4",
+      "method": "温度",
+      "unit": "C",
+      "points": [
+        "-20",
+        "120"
+      ],
+      "max_u": "0.2",
+      "available_dates": [
+        "2026-11-19"
+      ],
+      "point_evaluation": [
+        {
+          "point": "-20",
+          "candidates": [
+            {
+              "status": "ineligible",
+              "record_id": "L1",
+              "lab": "甲",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "-20",
+              "reason": "方法不匹配",
+              "sha256_ref": "0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L2",
+              "lab": "乙",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "-20",
+              "reason": "方法不匹配",
+              "sha256_ref": "2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+            },
+            {
+              "status": "feasible",
+              "record_id": "L3",
+              "lab": "乙",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "-20",
+              "reading_in_cap_unit": "-20",
+              "interval": "closed",
+              "formula": "u=0.15/2",
+              "expanded_U_at_point": "0.15",
+              "standard_u": "0.075",
+              "standard_u_instrument_unit": "0.075",
+              "max_allowed_u": "0.2",
+              "recompute_match": true,
+              "reason": "方法/单位/量程/暂停/不确定度全部满足",
+              "sha256_ref": "7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L4",
+              "lab": "丙",
+              "method": "压力",
+              "cap_unit": "kPa",
+              "k": 2,
+              "reading_instrument_unit": "-20",
+              "reason": "方法不匹配",
+              "sha256_ref": "94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L5",
+              "lab": "甲",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "-20",
+              "reading_in_cap_unit": "-20",
+              "interval": "closed",
+              "reason": "测点超量程",
+              "sha256_ref": "ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+            },
+            {
+              "status": "unconfirmed",
+              "record_id": "L6",
+              "lab": "丙",
+              "method": "交流电压",
+              "cap_unit": null,
+              "k": null,
+              "reading_instrument_unit": "-20",
+              "reading_in_cap_unit": null,
+              "interval": null,
+              "formula": null,
+              "expanded_U_at_point": null,
+              "standard_u": null,
+              "max_allowed_u": "0.2",
+              "recompute_match": null,
+              "sha256_ref": "7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+              "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收"
+            }
+          ],
+          "feasible_labs": [
+            "乙"
+          ],
+          "point_confirmed": true
+        },
+        {
+          "point": "120",
+          "candidates": [
+            {
+              "status": "ineligible",
+              "record_id": "L1",
+              "lab": "甲",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "120",
+              "reason": "方法不匹配",
+              "sha256_ref": "0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L2",
+              "lab": "乙",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "120",
+              "reason": "方法不匹配",
+              "sha256_ref": "2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+            },
+            {
+              "status": "unconfirmed",
+              "record_id": "L3",
+              "lab": "乙",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "120",
+              "reading_in_cap_unit": "120",
+              "interval": "closed",
+              "reason": "落在暂停范围 S1 [110,150]（生效 2026-11-01）",
+              "sha256_ref": "7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L4",
+              "lab": "丙",
+              "method": "压力",
+              "cap_unit": "kPa",
+              "k": 2,
+              "reading_instrument_unit": "120",
+              "reason": "方法不匹配",
+              "sha256_ref": "94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L5",
+              "lab": "甲",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "120",
+              "reading_in_cap_unit": "120",
+              "interval": "closed",
+              "reason": "测点超量程",
+              "sha256_ref": "ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+            },
+            {
+              "status": "unconfirmed",
+              "record_id": "L6",
+              "lab": "丙",
+              "method": "交流电压",
+              "cap_unit": null,
+              "k": null,
+              "reading_instrument_unit": "120",
+              "reading_in_cap_unit": null,
+              "interval": null,
+              "formula": null,
+              "expanded_U_at_point": null,
+              "standard_u": null,
+              "max_allowed_u": "0.2",
+              "recompute_match": null,
+              "sha256_ref": "7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+              "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收"
+            }
+          ],
+          "feasible_labs": [],
+          "point_confirmed": false
+        }
+      ],
+      "feasible_labs_for_all_points": []
+    },
+    {
+      "serial": "I5",
+      "method": "压力",
+      "unit": "MPa",
+      "points": [
+        "0.1",
+        "1"
+      ],
+      "max_u": "0.002",
+      "available_dates": [
+        "2026-11-18"
+      ],
+      "point_evaluation": [
+        {
+          "point": "0.1",
+          "candidates": [
+            {
+              "status": "ineligible",
+              "record_id": "L1",
+              "lab": "甲",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "0.1",
+              "reason": "方法不匹配",
+              "sha256_ref": "0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L2",
+              "lab": "乙",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "0.1",
+              "reason": "方法不匹配",
+              "sha256_ref": "2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L3",
+              "lab": "乙",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "0.1",
+              "reason": "方法不匹配",
+              "sha256_ref": "7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+            },
+            {
+              "status": "feasible",
+              "record_id": "L4",
+              "lab": "丙",
+              "method": "压力",
+              "cap_unit": "kPa",
+              "k": 2,
+              "reading_instrument_unit": "0.1",
+              "reading_in_cap_unit": "100.0",
+              "interval": "closed",
+              "formula": "u=2/2",
+              "expanded_U_at_point": "2",
+              "standard_u": "1",
+              "standard_u_instrument_unit": "0.001",
+              "max_allowed_u": "0.002",
+              "recompute_match": true,
+              "reason": "方法/单位/量程/暂停/不确定度全部满足",
+              "sha256_ref": "94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L5",
+              "lab": "甲",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "0.1",
+              "reason": "方法不匹配",
+              "sha256_ref": "ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+            },
+            {
+              "status": "unconfirmed",
+              "record_id": "L6",
+              "lab": "丙",
+              "method": "交流电压",
+              "cap_unit": null,
+              "k": null,
+              "reading_instrument_unit": "0.1",
+              "reading_in_cap_unit": null,
+              "interval": null,
+              "formula": null,
+              "expanded_U_at_point": null,
+              "standard_u": null,
+              "max_allowed_u": "0.002",
+              "recompute_match": null,
+              "sha256_ref": "7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+              "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收"
+            }
+          ],
+          "feasible_labs": [
+            "丙"
+          ],
+          "point_confirmed": true
+        },
+        {
+          "point": "1",
+          "candidates": [
+            {
+              "status": "ineligible",
+              "record_id": "L1",
+              "lab": "甲",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "1",
+              "reason": "方法不匹配",
+              "sha256_ref": "0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L2",
+              "lab": "乙",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "1",
+              "reason": "方法不匹配",
+              "sha256_ref": "2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L3",
+              "lab": "乙",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "1",
+              "reason": "方法不匹配",
+              "sha256_ref": "7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+            },
+            {
+              "status": "feasible",
+              "record_id": "L4",
+              "lab": "丙",
+              "method": "压力",
+              "cap_unit": "kPa",
+              "k": 2,
+              "reading_instrument_unit": "1",
+              "reading_in_cap_unit": "1000",
+              "interval": "closed",
+              "formula": "u=2/2",
+              "expanded_U_at_point": "2",
+              "standard_u": "1",
+              "standard_u_instrument_unit": "0.001",
+              "max_allowed_u": "0.002",
+              "recompute_match": true,
+              "reason": "方法/单位/量程/暂停/不确定度全部满足",
+              "sha256_ref": "94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L5",
+              "lab": "甲",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "1",
+              "reason": "方法不匹配",
+              "sha256_ref": "ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+            },
+            {
+              "status": "unconfirmed",
+              "record_id": "L6",
+              "lab": "丙",
+              "method": "交流电压",
+              "cap_unit": null,
+              "k": null,
+              "reading_instrument_unit": "1",
+              "reading_in_cap_unit": null,
+              "interval": null,
+              "formula": null,
+              "expanded_U_at_point": null,
+              "standard_u": null,
+              "max_allowed_u": "0.002",
+              "recompute_match": null,
+              "sha256_ref": "7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+              "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收"
+            }
+          ],
+          "feasible_labs": [
+            "丙"
+          ],
+          "point_confirmed": true
+        }
+      ],
+      "feasible_labs_for_all_points": [
+        "丙"
+      ]
+    },
+    {
+      "serial": "I6",
+      "method": "交流电压",
+      "unit": "V",
+      "points": [
+        "10"
+      ],
+      "max_u": "0.01",
+      "available_dates": [
+        "2026-11-18"
+      ],
+      "point_evaluation": [
+        {
+          "point": "10",
+          "candidates": [
+            {
+              "status": "ineligible",
+              "record_id": "L1",
+              "lab": "甲",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reason": "方法不匹配",
+              "sha256_ref": "0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L2",
+              "lab": "乙",
+              "method": "直流电压",
+              "cap_unit": "V",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reason": "方法不匹配",
+              "sha256_ref": "2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L3",
+              "lab": "乙",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reason": "方法不匹配",
+              "sha256_ref": "7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L4",
+              "lab": "丙",
+              "method": "压力",
+              "cap_unit": "kPa",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reason": "方法不匹配",
+              "sha256_ref": "94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00"
+            },
+            {
+              "status": "ineligible",
+              "record_id": "L5",
+              "lab": "甲",
+              "method": "温度",
+              "cap_unit": "C",
+              "k": 2,
+              "reading_instrument_unit": "10",
+              "reason": "方法不匹配",
+              "sha256_ref": "ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e"
+            },
+            {
+              "status": "unconfirmed",
+              "record_id": "L6",
+              "lab": "丙",
+              "method": "交流电压",
+              "cap_unit": null,
+              "k": null,
+              "reading_instrument_unit": "10",
+              "reading_in_cap_unit": null,
+              "interval": null,
+              "formula": null,
+              "expanded_U_at_point": null,
+              "standard_u": null,
+              "max_allowed_u": "0.01",
+              "recompute_match": null,
+              "sha256_ref": "7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+              "reason": "宣传材料 accredited=False，k=None，不在认可范围，不能用于客户验收"
+            }
+          ],
+          "feasible_labs": [],
+          "point_confirmed": false
+        }
+      ],
+      "feasible_labs_for_all_points": []
+    }
+  ],
+  "lab_slots": {
+    "甲@2026-11-18": 1,
+    "甲@2026-11-19": 1,
+    "乙@2026-11-19": 1,
+    "丙@2026-11-18": 1,
+    "乙@2026-11-18": 1
+  },
+  "suspensions": [
+    {
+      "id": "S1",
+      "lab": "乙",
+      "method": "温度",
+      "low": 110,
+      "high": 150,
+      "effective": "2026-11-01"
+    }
+  ],
+  "non_accredited_notes": [
+    {
+      "id": "L6",
+      "fields": {
+        "accredited": false,
+        "k": null,
+        "lab": "丙",
+        "method": "交流电压",
+        "range": "0至100V"
+      }
+    }
+  ],
+  "derived": {
+    "suspended_temp_ranges_merged": [
+      [
+        110,
+        150
+      ]
+    ]
+  }
+}

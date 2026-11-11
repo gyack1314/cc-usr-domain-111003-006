@@ -1,0 +1,17 @@
+{
+  "category": "能力",
+  "fields": {
+    "U": 0.18,
+    "closed": true,
+    "cost": 350,
+    "high": 100,
+    "k": 2,
+    "lab": "甲",
+    "low": 0,
+    "method": "温度",
+    "unit": "C"
+  },
+  "id": "L5",
+  "revision": 1,
+  "title": "甲实验室温度范围"
+}

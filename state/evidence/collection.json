@@ -1,0 +1,335 @@
+{
+  "collected_at": "2026-11-11T17:44:26Z",
+  "portal": "http://127.0.0.1:8765",
+  "listing_records_seen": 12,
+  "category_counts": {
+    "能力": 5,
+    "说明": 1,
+    "暂停": 1,
+    "时段": 5
+  },
+  "records": {
+    "L1": {
+      "id": "L1",
+      "title": "甲实验室电压范围",
+      "reference": "L1@0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728",
+      "record_sha256": "0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728",
+      "attachment": "state/evidence/downloads/L1.json",
+      "attachment_sha256": "0bfe3ff95a8309f709720ba39e9ba27b29679e0939780e80e1df51c17e38b728",
+      "document": "state/evidence/archive/L1.txt",
+      "document_sha256": "f8a9add5a8b2d2b18bfbde9bc2bda3fa395da1a9617e285164f78d14ba84c3bc",
+      "category": "能力",
+      "fields": {
+        "a_percent": 0.01,
+        "b": 0.002,
+        "closed": true,
+        "cost": 400,
+        "high": 100,
+        "k": 2,
+        "lab": "甲",
+        "low": 0,
+        "method": "直流电压",
+        "unit": "V"
+      },
+      "fields_on_page": {
+        "lab": "甲",
+        "method": "直流电压",
+        "low": 0,
+        "high": 100,
+        "closed": true,
+        "unit": "V",
+        "a_percent": 0.01,
+        "b": 0.002,
+        "k": 2,
+        "cost": 400
+      }
+    },
+    "L2": {
+      "id": "L2",
+      "title": "乙实验室低压范围",
+      "reference": "L2@2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684",
+      "record_sha256": "2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684",
+      "attachment": "state/evidence/downloads/L2.json",
+      "attachment_sha256": "2fe24f224fd28f7ef76da332cafdd9b6c2b4e33d25c19bf577d08ef695e49684",
+      "document": "state/evidence/archive/L2.txt",
+      "document_sha256": "6f3f9e782e3b00ac79a9cc183223ba756965ae901d3b1f60de2bc4001016128d",
+      "category": "能力",
+      "fields": {
+        "U": 0.004,
+        "closed": false,
+        "cost": 200,
+        "high": 10,
+        "k": 2,
+        "lab": "乙",
+        "low": 0,
+        "method": "直流电压",
+        "unit": "V"
+      },
+      "fields_on_page": {
+        "lab": "乙",
+        "method": "直流电压",
+        "low": 0,
+        "high": 10,
+        "closed": false,
+        "unit": "V",
+        "U": 0.004,
+        "k": 2,
+        "cost": 200
+      }
+    },
+    "L3": {
+      "id": "L3",
+      "title": "乙实验室温度范围",
+      "reference": "L3@7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c",
+      "record_sha256": "7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c",
+      "attachment": "state/evidence/downloads/L3.json",
+      "attachment_sha256": "7ad22191951effa837250ecd8bdf11d33e265e050bddd10434c3813b0a79580c",
+      "document": "state/evidence/archive/L3.txt",
+      "document_sha256": "73ecff5e66df8c4ba4a2563d53324fd7ca25aa6a97bd2370489a335cc0b517d9",
+      "category": "能力",
+      "fields": {
+        "U": 0.15,
+        "closed": true,
+        "cost": 500,
+        "high": 150,
+        "k": 2,
+        "lab": "乙",
+        "low": -30,
+        "method": "温度",
+        "unit": "C"
+      },
+      "fields_on_page": {
+        "lab": "乙",
+        "method": "温度",
+        "low": -30,
+        "high": 150,
+        "closed": true,
+        "unit": "C",
+        "U": 0.15,
+        "k": 2,
+        "cost": 500
+      }
+    },
+    "L4": {
+      "id": "L4",
+      "title": "丙实验室压力范围",
+      "reference": "L4@94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00",
+      "record_sha256": "94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00",
+      "attachment": "state/evidence/downloads/L4.json",
+      "attachment_sha256": "94e35b21e8ae090b8639dc70ba04c05b9d7ec90a992c54855f5c8a4f8a349a00",
+      "document": "state/evidence/archive/L4.txt",
+      "document_sha256": "da3b40b85641501c9e1173fd269b284ab41842423ae784d42247c11c1a2b87f4",
+      "category": "能力",
+      "fields": {
+        "U": 2,
+        "closed": true,
+        "cost": 300,
+        "high": 1000,
+        "k": 2,
+        "lab": "丙",
+        "low": 0,
+        "method": "压力",
+        "unit": "kPa"
+      },
+      "fields_on_page": {
+        "lab": "丙",
+        "method": "压力",
+        "low": 0,
+        "high": 1000,
+        "closed": true,
+        "unit": "kPa",
+        "U": 2,
+        "k": 2,
+        "cost": 300
+      }
+    },
+    "L5": {
+      "id": "L5",
+      "title": "甲实验室温度范围",
+      "reference": "L5@ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e",
+      "record_sha256": "ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e",
+      "attachment": "state/evidence/downloads/L5.json",
+      "attachment_sha256": "ca5651e4e963e491f1bb04458c15cd7db8d7c9ab581b6fabe161b5b8fcac495e",
+      "document": "state/evidence/archive/L5.txt",
+      "document_sha256": "0961ade4d9bac460624a45996eb99b1c4aab2472a940de64f76885df0c3f244c",
+      "category": "能力",
+      "fields": {
+        "U": 0.18,
+        "closed": true,
+        "cost": 350,
+        "high": 100,
+        "k": 2,
+        "lab": "甲",
+        "low": 0,
+        "method": "温度",
+        "unit": "C"
+      },
+      "fields_on_page": {
+        "lab": "甲",
+        "method": "温度",
+        "low": 0,
+        "high": 100,
+        "closed": true,
+        "unit": "C",
+        "U": 0.18,
+        "k": 2,
+        "cost": 350
+      }
+    },
+    "L6": {
+      "id": "L6",
+      "title": "丙交流能力宣传",
+      "reference": "L6@7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+      "record_sha256": "7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+      "attachment": "state/evidence/downloads/L6.json",
+      "attachment_sha256": "7630fbb60426b4b5e09c514aa9f6ba9d912a20e4893d784eb012e9a908915746",
+      "document": "state/evidence/archive/L6.txt",
+      "document_sha256": "aacc104646dbb519b4e7dcb4584eb00860880930e75b7228f6673442a86cebec",
+      "category": "说明",
+      "fields": {
+        "accredited": false,
+        "k": null,
+        "lab": "丙",
+        "method": "交流电压",
+        "range": "0至100V"
+      },
+      "fields_on_page": {
+        "lab": "丙",
+        "method": "交流电压",
+        "range": "0至100V",
+        "accredited": false,
+        "k": null
+      }
+    },
+    "S1": {
+      "id": "S1",
+      "title": "乙高温段暂停",
+      "reference": "S1@27a0ba9010e9b5463fdc02b4957d28e9cd985ce6d924b72c5c22f112ccb70736",
+      "record_sha256": "27a0ba9010e9b5463fdc02b4957d28e9cd985ce6d924b72c5c22f112ccb70736",
+      "attachment": "state/evidence/downloads/S1.json",
+      "attachment_sha256": "27a0ba9010e9b5463fdc02b4957d28e9cd985ce6d924b72c5c22f112ccb70736",
+      "document": "state/evidence/archive/S1.txt",
+      "document_sha256": "181100a672e5f3c0f578a52caac3dc8b3e7c626edc5e68ec5063333d1d8042ee",
+      "category": "暂停",
+      "fields": {
+        "effective": "2026-11-01",
+        "high": 150,
+        "lab": "乙",
+        "low": 110,
+        "method": "温度"
+      },
+      "fields_on_page": {
+        "lab": "乙",
+        "method": "温度",
+        "low": 110,
+        "high": 150,
+        "effective": "2026-11-01"
+      }
+    },
+    "CAP1": {
+      "id": "CAP1",
+      "title": "甲 2026-11-18",
+      "reference": "CAP1@31183b1dc9c53cb359c7b2f8fa84a192066288d597277346a3917e270df89aeb",
+      "record_sha256": "31183b1dc9c53cb359c7b2f8fa84a192066288d597277346a3917e270df89aeb",
+      "attachment": "state/evidence/downloads/CAP1.json",
+      "attachment_sha256": "31183b1dc9c53cb359c7b2f8fa84a192066288d597277346a3917e270df89aeb",
+      "document": "state/evidence/archive/CAP1.txt",
+      "document_sha256": "83570a7104b21dde9c16ec5a00395da78222a8c6de8b0cc5c05e6dfab76a86bb",
+      "category": "时段",
+      "fields": {
+        "date": "2026-11-18",
+        "lab": "甲",
+        "slots": 1
+      },
+      "fields_on_page": {
+        "lab": "甲",
+        "date": "2026-11-18",
+        "slots": 1
+      }
+    },
+    "CAP2": {
+      "id": "CAP2",
+      "title": "甲 2026-11-19",
+      "reference": "CAP2@bd490fca67420425259920024686af9924d59db4768d73564ecfbfe87fa027ab",
+      "record_sha256": "bd490fca67420425259920024686af9924d59db4768d73564ecfbfe87fa027ab",
+      "attachment": "state/evidence/downloads/CAP2.json",
+      "attachment_sha256": "bd490fca67420425259920024686af9924d59db4768d73564ecfbfe87fa027ab",
+      "document": "state/evidence/archive/CAP2.txt",
+      "document_sha256": "98e42fb44035939b3c2646a19825806a28b80c652ca7d6cc1db8f669f0206ac1",
+      "category": "时段",
+      "fields": {
+        "date": "2026-11-19",
+        "lab": "甲",
+        "slots": 1
+      },
+      "fields_on_page": {
+        "lab": "甲",
+        "date": "2026-11-19",
+        "slots": 1
+      }
+    },
+    "CAP3": {
+      "id": "CAP3",
+      "title": "乙 2026-11-19",
+      "reference": "CAP3@e3ef8aa42f57ec36d1777fe316849033fb0ddf1b9c5d0a8406b989220a4c59f5",
+      "record_sha256": "e3ef8aa42f57ec36d1777fe316849033fb0ddf1b9c5d0a8406b989220a4c59f5",
+      "attachment": "state/evidence/downloads/CAP3.json",
+      "attachment_sha256": "e3ef8aa42f57ec36d1777fe316849033fb0ddf1b9c5d0a8406b989220a4c59f5",
+      "document": "state/evidence/archive/CAP3.txt",
+      "document_sha256": "643d15ccbc4143af6f06b270bf040c3525e2fca8e50d95469f224fadd863b585",
+      "category": "时段",
+      "fields": {
+        "date": "2026-11-19",
+        "lab": "乙",
+        "slots": 1
+      },
+      "fields_on_page": {
+        "lab": "乙",
+        "date": "2026-11-19",
+        "slots": 1
+      }
+    },
+    "CAP4": {
+      "id": "CAP4",
+      "title": "丙 2026-11-18",
+      "reference": "CAP4@fa841642979033bd297e1ee5bbc093a68e0b6dfbf9aa4d84adb5e13a7abb9675",
+      "record_sha256": "fa841642979033bd297e1ee5bbc093a68e0b6dfbf9aa4d84adb5e13a7abb9675",
+      "attachment": "state/evidence/downloads/CAP4.json",
+      "attachment_sha256": "fa841642979033bd297e1ee5bbc093a68e0b6dfbf9aa4d84adb5e13a7abb9675",
+      "document": "state/evidence/archive/CAP4.txt",
+      "document_sha256": "50ddf2a2cd3609231b5f4cc188d9100152224f9d7ecaa131170161437c774dc4",
+      "category": "时段",
+      "fields": {
+        "date": "2026-11-18",
+        "lab": "丙",
+        "slots": 1
+      },
+      "fields_on_page": {
+        "lab": "丙",
+        "date": "2026-11-18",
+        "slots": 1
+      }
+    },
+    "CAP5": {
+      "id": "CAP5",
+      "title": "乙 2026-11-18",
+      "reference": "CAP5@56040317b5bc3e4d81739d28c70d9ca20be22f2b31e6cb5d6abcc5cdc5275e75",
+      "record_sha256": "56040317b5bc3e4d81739d28c70d9ca20be22f2b31e6cb5d6abcc5cdc5275e75",
+      "attachment": "state/evidence/downloads/CAP5.json",
+      "attachment_sha256": "56040317b5bc3e4d81739d28c70d9ca20be22f2b31e6cb5d6abcc5cdc5275e75",
+      "document": "state/evidence/archive/CAP5.txt",
+      "document_sha256": "3e0dc592092e560b30ca24dbeeb350cf3a6e63195e5e38d0b3140670103e7965",
+      "category": "时段",
+      "fields": {
+        "date": "2026-11-18",
+        "lab": "乙",
+        "slots": 1
+      },
+      "fields_on_page": {
+        "lab": "乙",
+        "date": "2026-11-18",
+        "slots": 1
+      }
+    }
+  }
+}

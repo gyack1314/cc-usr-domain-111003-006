@@ -1,0 +1,13 @@
+{
+  "category": "暂停",
+  "fields": {
+    "effective": "2026-11-01",
+    "high": 150,
+    "lab": "乙",
+    "low": 110,
+    "method": "温度"
+  },
+  "id": "S1",
+  "revision": 1,
+  "title": "乙高温段暂停"
+}

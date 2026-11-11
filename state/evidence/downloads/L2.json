@@ -1,0 +1,17 @@
+{
+  "category": "能力",
+  "fields": {
+    "U": 0.004,
+    "closed": false,
+    "cost": 200,
+    "high": 10,
+    "k": 2,
+    "lab": "乙",
+    "low": 0,
+    "method": "直流电压",
+    "unit": "V"
+  },
+  "id": "L2",
+  "revision": 1,
+  "title": "乙实验室低压范围"
+}
